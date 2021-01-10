@@ -3,11 +3,11 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
+    nav = [],
+    currentNav,
+    setCurrentNav,
+    currentMobile,
+    setCurrentMobile,
   } = props;
 
   return (
@@ -20,15 +20,17 @@ function Nav(props) {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#about" onClick={() => setContactSelected(false)}>
+              <a className={`nav-link  ${currentNav === "About" && "navActive"}`} aria-current="page" href="#about" onClick={() => setCurrentNav("About")}>
                 About Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Portfolio</a>
+              <a className="nav-link" href="#">
+              <span onClick={() => setCurrentNav("Portfolio")}>Portfolio</span>
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-              <span onClick={() => setContactSelected(true)}>Contact</span></a>
+              <span onClick={() => setCurrentNav("Contact")}>Contact</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Resume</a>
