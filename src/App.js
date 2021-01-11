@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import About from "./components/About";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-// import Resume from "./components/Resume";
-// import Header from "./components/Header";
+import Resume from "./components/Resume";
 
 function App() {
   const [nav] = useState(["About", "Portfolio", "Resume", "Contact"]);
@@ -23,16 +22,19 @@ function App() {
         setCurrentMobile={setCurrentMobile}
       />
 
-      <main>
+<main>
         {currentNav === "About" ? (
           <About />
         ) : currentNav === "Portfolio" ? (
           <Portfolio />
+        ) : currentNav === "Resume" ? (
+          <Resume />
         ) : currentNav === "Contact" ? (
           <Contact />
         ) : (
-                <About />
-              )}
+          <About />
+        )}
+        <Footer />
       </main>
     </div>
   );

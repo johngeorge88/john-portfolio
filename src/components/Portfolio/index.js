@@ -11,37 +11,28 @@ function Portfolio() {
             alt: "My Studio Portal",
             image: MyStudio,
             description:
-                "Helping bar owners to quickly deplete kegs from leftover product, while helping avid beer drinkers find less expensive ways to drink with friends.",
-            tools: "Sequelize/Express/Node/Handlebars",
-            github: "https://github.com/JoshCarter8400/kill-the-keg",
-            demo: "https://obscure-eyrie-90813.herokuapp.com/",
-            // icon1: <AiOutlineEye />,
-            // icon2: <AiFillGithub />,
+                "A Studio for Musical studies between teachers and students.",
+            github: "https://github.com/jrsparl/UCF-mystudioportal",
+            demo: "https://pacific-river-56030.herokuapp.com/",
         },
         {
             name: "TourVid",
             alt: "TourVid Travel-Planne",
             image: TourVid,
             description:
-                "This is a project where I built the APIs on the backend for a social network web application. It allows users to share their thoughts, are able to react to friend's thoughts, and create a friends list.",
-            tools: "MongoDB/Mongoose/Express/Node",
-            github: "https://github.com/JoshCarter8400/social-network-api",
-            demo:
-                "https://drive.google.com/file/d/1H2R_atiZEcf-uUr-vq3F6lPYtz0X6ZeV/view",
-            // icon1: <AiOutlineEye />,
-            // icon2: <AiFillGithub />,
+                "An app that help traveller to plan their next trips.",
+            github: "https://github.com/Napo-100/Covid-travel-safety-app",
+            demo:"https://napo-100.github.io/Covid-travel-safety-app/",
         },
         {
             name: "Run-Buddy",
             alt: "Run Buddy",
             image: RunBuddy,
             description:
-                "This is a full stack application that allows user to post their thoughts and opinions through their personal blog post on a CMS style website. This project follows the Model View Controller paradigm.",
+                "A website that offers fitness training services.",
             tools: "Sequelize/Express/Node/Express-Session",
-            github: "https://github.com/JoshCarter8400/tech-blog",
-            demo: "https://rocky-cove-83154.herokuapp.com/",
-            // icon1: <AiOutlineEye />,
-            // icon2: <AiFillGithub />,
+            github: "https://github.com/johngeorge88/run-buddy",
+            demo: "https://lernantino.github.io/run-buddy/",
         }
     ]);
     return (
