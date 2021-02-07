@@ -3,6 +3,7 @@ import Project from "../../components/Projects";
 import MyStudio from "../../assets/Projects/My-Studio-Portal.png"
 import TourVid from "../../assets/Projects/TourVid-travel-planner.png"
 import RunBuddy from "../../assets/Projects/Run-Buddy.png"
+import CreativeSquare from "../../assets/Projects/creative-square.png"
 
 function Portfolio() {
     const [projects] = useState([
@@ -33,6 +34,16 @@ function Portfolio() {
             tools: "Sequelize/Express/Node/Express-Session",
             github: "https://github.com/johngeorge88/run-buddy",
             demo: "https://lernantino.github.io/run-buddy/",
+        },
+        {
+            name: "Creative-Square",
+            alt: "Creative Square",
+            image: CreativeSquare,
+            description:
+                "Creative Square is a social media forward portfolio application. It is designed to take the most engaging and direct approach for your content as a creator to be consumed and financially contributed to..",
+            tools: "Node.js, MongoDB, GraphQL, Mongoose, Apollo, React, TailwindCSS",
+            github: "https://github.com/Napo-100/creative-square",
+            demo: "https://creative-square.herokuapp.com/",
         }
     ]);
     return (
