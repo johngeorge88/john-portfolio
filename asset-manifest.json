@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/john-portfolio/static/css/main.42d35f65.chunk.css",
-    "main.js": "/john-portfolio/static/js/main.30119c23.chunk.js",
-    "main.js.map": "/john-portfolio/static/js/main.30119c23.chunk.js.map",
+    "main.js": "/john-portfolio/static/js/main.07239c7a.chunk.js",
+    "main.js.map": "/john-portfolio/static/js/main.07239c7a.chunk.js.map",
     "runtime-main.js": "/john-portfolio/static/js/runtime-main.b08c5e3b.js",
     "runtime-main.js.map": "/john-portfolio/static/js/runtime-main.b08c5e3b.js.map",
     "static/js/2.7cd998d7.chunk.js": "/john-portfolio/static/js/2.7cd998d7.chunk.js",
@@ -15,12 +15,13 @@
     "static/media/My-Studio-Portal.dae2247d.png": "/john-portfolio/static/media/My-Studio-Portal.dae2247d.png",
     "static/media/Run-Buddy.924c94d5.png": "/john-portfolio/static/media/Run-Buddy.924c94d5.png",
     "static/media/TourVid-travel-planner.0a815767.png": "/john-portfolio/static/media/TourVid-travel-planner.0a815767.png",
+    "static/media/creative-square.ab226f9c.png": "/john-portfolio/static/media/creative-square.ab226f9c.png",
     "static/media/my-pic.d3cb9fd3.jpg": "/john-portfolio/static/media/my-pic.d3cb9fd3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b08c5e3b.js",
     "static/js/2.7cd998d7.chunk.js",
     "static/css/main.42d35f65.chunk.css",
-    "static/js/main.30119c23.chunk.js"
+    "static/js/main.07239c7a.chunk.js"
   ]
 }
