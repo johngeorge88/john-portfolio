@@ -23,7 +23,7 @@ function App() {
         setCurrentMobile={setCurrentMobile}
       />
 
-<main>
+      <main className="px-40 flex justify-center">
         {currentNav === "About" ? (
           <About />
         ) : currentNav === "Portfolio" ? (
@@ -35,8 +35,9 @@ function App() {
         ) : (
           <About />
         )}
-        <Footer />
+
       </main>
+      <Footer />
     </div>
   );
 }

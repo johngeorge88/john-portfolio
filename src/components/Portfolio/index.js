@@ -48,18 +48,19 @@ function Portfolio() {
     ]);
     return (
         <main id="main">
-            <section id="portfolio" className="portfolio section-bg">
+            <section id="portfolio" className="">
                 <div className="container">
-                    <div className="section-title">
+                    <div className="">
                         <h2>Portfolio</h2>
                         <p></p>
                     </div>
 
                     <div
-                        className="row portfolio-container"
+                        className="grid lg:grid-cols-3 gap-1"
                         data-aos="fade-up"
                         data-aos-delay="100"
                     >
+                        
                         {projects ? (
                             projects.map((project) => {
                                 return <Project {...project} />;
