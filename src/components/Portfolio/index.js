@@ -49,12 +49,7 @@ function Portfolio() {
     return (
         <main id="main">
             <section id="portfolio" className="">
-                <div className="container">
-                    <div className="">
-                        <h2>Portfolio</h2>
-                        <p></p>
-                    </div>
-
+                <div className="pt-3">
                     <div className="grid lg:grid-cols-3 gap-1">
                         {projects ? (
                             projects.map((project) => {
