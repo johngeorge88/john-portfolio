@@ -2,15 +2,18 @@ import React from 'react';
 import coverImage from '../../assets/my-pic.jpg';
 function About() {
   return (
-    <section className="my-5 p-3">
-      <img src={coverImage} className="rounded-circle border border-5 img" alt="..."></img>
-      <h1 id="about">Full-Stack Web Developer</h1>
-      <div className="my-2">
-        <p>
-        E-commerce specialist, Graphic designer and a Full-stack web developer. 
-        </p>
+    <div className="grid grid-cols-3">
+      <div className="col-span-2">
+        <div id="about" className="text-7xl	font-black uppercase">Full Stack</div>
+        <div id="about" className="text-8xl	font-black">DEVELOPER</div>
+        <div className="my-2 text-2xl">
+          With previous experience in Graphic design and E-commerce websites.
+          </div>
       </div>
-    </section>
+      <div className="">
+        <img src={coverImage} className="rounded-full  h-96 w-full object-cover" alt="..."></img>
+      </div>
+    </div>
   );
 }
 

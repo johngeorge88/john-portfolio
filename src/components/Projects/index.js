@@ -9,7 +9,7 @@ const ProjectList = (props) => {
                     <div className="mx-auto text-white z-10 self-center uppercase tracking-widest text-sm ">{props.name}</div>
                 </div>
                 <div className="card">
-                    <img src={props.image} className="w-full h-32 sm:h-48 oject-cover" alt={props.alt} />
+                    <img src={props.image} className="w-full h-32 sm:h-48 object-cover" alt={props.alt} />
 
                 </div>
             </div>

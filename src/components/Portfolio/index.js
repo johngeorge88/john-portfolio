@@ -23,7 +23,7 @@ function Portfolio() {
             description:
                 "An app that help traveller to plan their next trips.",
             github: "https://github.com/Napo-100/Covid-travel-safety-app",
-            demo:"https://napo-100.github.io/Covid-travel-safety-app/",
+            demo: "https://napo-100.github.io/Covid-travel-safety-app/",
         },
         {
             name: "Run-Buddy",
@@ -55,19 +55,14 @@ function Portfolio() {
                         <p></p>
                     </div>
 
-                    <div
-                        className="grid lg:grid-cols-3 gap-1"
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                    >
-                        
+                    <div className="grid lg:grid-cols-3 gap-1">
                         {projects ? (
                             projects.map((project) => {
                                 return <Project {...project} />;
                             })
                         ) : (
-                                <></>
-                            )}
+                            <></>
+                        )}
                     </div>
                 </div>
             </section>

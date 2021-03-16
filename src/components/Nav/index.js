@@ -13,7 +13,7 @@ function Nav(props) {
       {/* <img src={coverImage} className="rounded-circle border border-5 img-s" alt="..."></img> */}
       <div className="container mx-auto">
         <div className="sm:flex justify-around">
-          <a className="text-6x1 font-bold" href="/">JOHNGEORGE</a>
+          <a className="text-6x1 font-bold" href="/">JOHNAWAD</a>
 
           {/* Menu Items */}
           <ul className="sm:selc-center text-xl border-t sm:border-none text-gray-400">
