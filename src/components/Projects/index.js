@@ -13,9 +13,18 @@ const ProjectList = (props) => {
 
                 </div>
             </div>
-            <div className="btn-group">
-                <a href={props.demo} className="btn btn-secondary">Application Link</a>
-                <a href={props.github} className="btn btn-secondary">GitHub Link</a>
+            <div className="flex flex-row flex-wrap gap-3">
+                <div className="flex flex-grow justify-center">
+                    <a href={props.demo} className="btn btn-secondary">
+                        <i class="fas fa-globe"></i>
+                        <span> </span>
+                 Application Link</a>
+                </div>
+                <div className="flex flex-grow justify-center">
+                    <a href={props.github} className="btn btn-secondary">
+                        <i className="fab fa-github"></i>
+                 <span> </span>GitHub Link</a>
+                </div>
             </div>
 
         </div>
