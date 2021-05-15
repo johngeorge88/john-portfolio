@@ -1,6 +1,8 @@
 import React from 'react';
 import coverImage from '../../assets/my-pic.jpg';
 
+
+
 function Nav(props) {
   const {
     nav = [],
@@ -18,20 +20,20 @@ function Nav(props) {
           {/* Menu Items */}
           <ul className="sm:selc-center text-xl border-t sm:border-none text-gray-400">
             <li className="sm:inline-block">
-              <a className="p-3 hover:text-white" aria-current="page" href="#about" onClick={() => setCurrentNav("About")}>
+              <a className="p-3 hover:text-white active:text-white" aria-current="page" href="#about" onClick={() => setCurrentNav("About")}>
                 About Me</a>
             </li>
             <li className="sm:inline-block">
-              <a className="p-3 hover:text-white" href="#">
+              <a className="p-3 hover:text-white active:text-white" href="#">
                 <span onClick={() => setCurrentNav("Portfolio")}>Portfolio</span>
               </a>
             </li>
             <li className="sm:inline-block">
-              <a className="p-3 hover:text-white" href="#">
+              <a className="p-3 hover:text-white active:text-white" href="#">
                 <span onClick={() => setCurrentNav("Contact")}>Contact</span></a>
             </li>
             <li className="sm:inline-block">
-              <a className="p-3 hover:text-white" href="#" onClick={() => setCurrentNav("Resume")}>Resume</a>
+              <a className="p-3 hover:text-white active:text-white" href="#" onClick={() => setCurrentNav("Resume")}>Resume</a>
             </li>
           </ul>
         </div>

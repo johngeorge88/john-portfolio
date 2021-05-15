@@ -4,8 +4,10 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
+  varriants: {
+    extend: {
+      textColor: ['active'],
+    }
   },
   plugins: [],
 }
